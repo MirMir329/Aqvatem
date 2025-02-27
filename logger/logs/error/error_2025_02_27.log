@@ -1,0 +1,61 @@
+27.02.2025, 01:05:05 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1367:53
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1360:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+27.02.2025, 01:08:40 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1367:53
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1360:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+27.02.2025, 01:11:29 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1367:53
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1360:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+27.02.2025, 04:16:55 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'product_id')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1382:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+27.02.2025, 04:16:56 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'product_id')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1382:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+27.02.2025, 04:48:23 - Source: DB service updateDealProductQuantities
+Error: Error: SQLITE_BUSY: database is locked
+--> in Statement#run([ 2, 5, 3831, 1103 ], [Function (anonymous)])
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:617:12)
+    at Db.updateDealProductQuantities (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:616:10)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:120:39
+
+27.02.2025, 04:48:23 - Source: DB service updateDealProductQuantities
+Error: Error: SQLITE_BUSY: database is locked
+--> in Statement#run([ 2, 5, 3831, 5267 ], [Function (anonymous)])
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:617:12)
+    at Db.updateDealProductQuantities (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:616:10)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:120:39
+
+27.02.2025, 04:48:23 - Source: DB service updateDealProductQuantities
+Error: Error: SQLITE_BUSY: database is locked
+
+27.02.2025, 04:48:24 - Source: DB service updateDealProductQuantities
+Error: Error: SQLITE_BUSY: database is locked
+--> in Statement#run([ 2, 5, 3831, 5263 ], [Function (anonymous)])
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Database.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:617:12)
+    at Db.updateDealProductQuantities (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\services\db.js:616:10)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:120:39
+
