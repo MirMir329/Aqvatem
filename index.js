@@ -31,8 +31,63 @@ app.use(
     origin: "*",
   })
 );
+
+app.post(
+  BASE_URL + "add_comment/", 
+  express.json({ limit: '20mb' }),
+  async (req, res) => {
+  try {
+    const userID = req.body.user_id;
+    const dealId = req.body.deal_id;
+    const comment = req.body.comment;
+    const picturesArr = req.body.picturesArr;
+    // console.log(req.body);
+
+    const bxLinkDecrypted = await decryptText(process.env.BX_LINK);
+
+    const dealsService = new DealsService(bxLinkDecrypted);
+    // Update the deal's assigned ID in the external service (Bitrix, etc.)
+    // const picturesArr = 
+
+    if (
+      await dealsService.updateDealWithPicture(dealId, { UF_CRM_1740318723: comment }, { UF_CRM_1740324915: picturesArr})
+    ) {
+      logAccess(
+        BASE_URL + "add_comment/",
+        `Deal ${dealId} successfully updated (added comment) in bx`
+      );
+    }
+
+    if (
+      await dealsService.addPictureToTaskComment(dealId, {
+        comment: comment,
+        userID: userID,
+      })
+    ) {
+      logAccess(
+        BASE_URL + "add_comment/",
+        `Deal ${dealId} successfully updated (added picture to task comment) in bx`
+      );
+    }
+
+    res.status(200).json({
+      status: true,
+      status_msg: "success",
+      message: "Deal and task successfully updated",
+    });
+  } catch (error) {
+    logError(BASE_URL + "add_comment/", error);
+    res
+      .status(500)
+      .json({ status: false, status_msg: "error", message: "server error" });
+  }
+});
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+// app.use(express.json({ limit: '20mb' })); // Увеличиваем лимит на 20MB
+// app.use(express.urlencoded({ extended: true, limit: '20mb' })); // Для form-data
 app.use(timeout("20m"));
 
 function haltOnTimedOut(req, res, next) {
@@ -111,10 +166,7 @@ app.post(
           `Deal ${dealId} service price updated successfully in db`
         );
       }
-
-      console.log("Строка 115, Материалы:", products);
-      
-
+      // console.log("Строка 115, Материалы:", products);
       // Loop through each product and update the fact amount in the local database
       for (const product of products) {
         const updateResult = await db.updateDealProductQuantities({
@@ -267,6 +319,9 @@ app.post(BASE_URL + "update_deal/", async (req, res) => {
     const assignedPersonalId = req.body.assigned_id;
     // UF_CRM_1730790163295
 
+    // console.log("Строка 270 - req.body", req.body);
+    
+
     const db = new Db();
     const bxLinkDecrypted = await decryptText(process.env.BX_LINK);
 
@@ -298,7 +353,7 @@ app.post(BASE_URL + "update_deal/", async (req, res) => {
         `Deal ${dealId} successfully updated in bx`
       );
     }
-
+    // console.log("Статус сделки изменился!!");
     // Prepare the product rows for the external service
     const productRows = products.map((product) => {
       return {
@@ -308,7 +363,7 @@ app.post(BASE_URL + "update_deal/", async (req, res) => {
         PRICE: product.price,
       };
     });
-
+    // console.log("строка 315, productRows", productRows);
     if (await dealsService.updateDealProductRows(dealId, productRows)) {
       logAccess(
         BASE_URL + "update_deal/",
@@ -421,7 +476,7 @@ app.post(BASE_URL + "change_deal_status_to_failed/", async (req, res) => {
     
     const deal = await dealService.getDealById(dealId);
 
-    console.log(deal);
+    // console.log(deal);
     const updateBXDealToFailed = await dealService.updateDeal(dealId, {
       STAGE_ID: "LOSE"
     })
@@ -456,37 +511,18 @@ app.post(BASE_URL + "change_deal_status_to_failed/", async (req, res) => {
   }
 });
 
-app.post(BASE_URL + "add_comment/", async (req, res) => {
+app.post(BASE_URL + "complete_task/", async (req, res) => {
   try {
-    const userID = req.body.user_id;
     const dealId = req.body.deal_id;
-    const comment = req.body.comment;
-    const picturesArr = req.body.picturesArr;
-    // console.log(req.body);
-
     const bxLinkDecrypted = await decryptText(process.env.BX_LINK);
-
     const dealsService = new DealsService(bxLinkDecrypted);
-    // Update the deal's assigned ID in the external service (Bitrix, etc.)
-    // const picturesArr = 
-
+    // console.log("dealId", dealId);
+    
     if (
-      await dealsService.updateDealWithPicture(dealId, { UF_CRM_1740318723: comment }, { UF_CRM_1740324915: picturesArr})
+      await dealsService.completeMontajnikTask(dealId)
     ) {
       logAccess(
-        BASE_URL + "add_comment/",
-        `Deal ${dealId} successfully updated (added comment) in bx`
-      );
-    }
-
-    if (
-      await dealsService.addPictureToTaskComment(dealId, {
-        comment: comment,
-        userID: userID,
-      })
-    ) {
-      logAccess(
-        BASE_URL + "add_comment/",
+        BASE_URL + "complete_task/",
         `Deal ${dealId} successfully updated (added picture to task comment) in bx`
       );
     }
@@ -497,7 +533,7 @@ app.post(BASE_URL + "add_comment/", async (req, res) => {
       message: "Deal and task successfully updated",
     });
   } catch (error) {
-    logError(BASE_URL + "add_comment/", error);
+    logError(BASE_URL + "complete_task/", error);
     res
       .status(500)
       .json({ status: false, status_msg: "error", message: "server error" });
@@ -515,7 +551,7 @@ app.post(BASE_URL + "add_user_to_db/", async (req, res) => {
 
     // Если пользователей нет, возвращаем ошибку
     if (!newUser) {
-      console.log(user);
+      // console.log(user);
       return res.status(404).json({
         status: false,
         status_msg: "no_user_data_found",
@@ -895,6 +931,8 @@ app.post(BASE_URL + "add_deal_handler/", async (req, res) => {
 
     const newDeal = [await dealService.getDealById(dealId)]
       .map((deal) => {
+        console.log("Строка 930, deal -", deal);
+        
         if (Number(deal["CATEGORY_ID"]) === 0) {
           return {
             id: deal["ID"],
@@ -1273,10 +1311,10 @@ app.post(BASE_URL + "delete_deal_handler", async (req, res) => {
 app.post(BASE_URL + "delete_deal", async (req, res) => {
   try {
     let id = 0;
-    console.log(req.body.deal_id);
+    // console.log(req.body.deal_id);
     
     id = req.body.deal_id;
-    console.log(id);
+    // console.log(id);
     
     if (!id) {
       logError(BASE_URL + "delete_deal", "No deal id provided");
@@ -1288,7 +1326,7 @@ app.post(BASE_URL + "delete_deal", async (req, res) => {
       return;
     }
 
-    console.log(id);
+    // console.log(id);
 
     const db = new Db();
     const deleteDealResult = db.deleteDealById(id);
@@ -1355,7 +1393,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
       throw new Error(`Error while setting deal ${id} as failed in db`);
     }
     const dealsProductsFromDb = await db.getDealsProducts(id);
-    console.log("Строка 1357, Материалы из сделки:", dealsProductsFromDb);
+    // console.log("Строка 1357, Материалы из сделки:", dealsProductsFromDb);
     
     // запрос в базу данных чтобы доставать товары из сделки (таблица deals_products) 
     const productRows = (await dealService.getDealProductRowsByDealId(id)).map((pr) => {
@@ -1364,11 +1402,12 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
           const matchedProduct = dealsProductsFromDb.find(
               (dp) => dp.product_id === Number(pr["PRODUCT_ID"])
           );
-  
+          // console.log("Строка 1401, matchedProduct - ", matchedProduct);
+          
           return {
               product_id: Number(pr["PRODUCT_ID"]),
               // Если продукт найден, берем fact_amount из базы, иначе null
-              fact_amount: matchedProduct ? matchedProduct.fact_amount : null, 
+              fact_amount: matchedProduct ? Number(pr["QUANTITY"]) : 0, 
               // Если продукт найден, берем given_amount из базы, иначе из pr["QUANTITY"]
               given_amount: matchedProduct 
                   ? matchedProduct.given_amount 
@@ -1392,7 +1431,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
     //     }
     //   }
     // );
-    console.log("Строка 1375, productRows:", productRows);
+    // console.log("Строка 1375, productRows:", productRows);
     // console.log("Строка 1376, dealService:", dealService);
 
     const products = [];
@@ -1401,7 +1440,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
         const originalProduct = await productService.getOriginalProductId(
           pr.product_id
         );
-        console.log("строка 1383", originalProduct);
+        // console.log("строка 1383", originalProduct);
         
         if (originalProduct && Object.keys(originalProduct).length > 0) {
           products.push({
@@ -1426,7 +1465,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
         throw new Error(`Error while updating product rows for deal ${id} in db`);
       }
     }
-    console.log("Строка 1405", products);
+    // console.log("Строка 1405", products);
     
     const dealProducts = products.map((pr) => {
       return {
@@ -1438,7 +1477,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
         price: pr.price,
       };
     });
-    console.log("Строка 1417", dealProducts);
+    // console.log("Строка 1417", dealProducts);
 
 
     const insertResult = db.insertDealsProductsInDb(dealProducts);

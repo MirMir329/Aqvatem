@@ -95,14 +95,14 @@ class DealsService {
 
     async updateDealWithPicture(dealId, updatingFieldCom = {}, updatingFieldPic) {
         try {
-            console.log(updatingFieldPic);
-            console.log(updatingFieldPic.UF_CRM_1740324915.length);
+            // console.log(updatingFieldPic);
+            // console.log(updatingFieldPic.UF_CRM_1740324915.length);
             await this.bx.call("crm.deal.update", {
                 id: dealId,
                 fields: updatingFieldCom
             });
-            console.log("this.bx_link", this.bx_link);
-            console.log(this.bx_link + "crm.deal.update");
+            // console.log("this.bx_link", this.bx_link);
+            // console.log(this.bx_link + "crm.deal.update");
 
             if (updatingFieldPic.UF_CRM_1740324915.length !== 0) {
                 const response = await fetch(this.bx_link + "crm.deal.update", {
@@ -158,7 +158,40 @@ class DealsService {
         }
     }
 
+    async completeMontajnikTask(dealId) {
+        try {
+            
+            const actualId = `D_${dealId}`
+            // console.log("actualId", actualId);
+            const dealTasks = await this.bx.call("tasks.task.list",
+                { filter:{ "UF_CRM_TASK": actualId }},
+            );
+            
+            const actualTask = dealTasks.result.tasks.find(obj => obj.title.includes("Произведение работ"));
+
+            // console.log("actualTask", actualTask);
+            
+            if (!actualTask) {
+                console.log(`No task found for dealId: ${dealId}`);
+                return false;
+            }
+
+            await this.bx.call('tasks.task.complete',
+                {   
+                    taskId: actualTask.id,
+                }
+            );
+            return true;
+        } catch (error) {
+            logError("DealsService completeMontajnikTask", error);
+            return false;
+        }
+    }
+
     async updateDealProductRows(dealId, productRows = []) {
+        // console.log("Другой файл, строка 192, dealId", dealId);
+        // console.log("Другой файл, строка 193, productRows", productRows);
+        
         try {
             const res = await this.bx.call("crm.deal.productrows.set", {
                 id: dealId,
@@ -166,6 +199,7 @@ class DealsService {
             });
             return true;
         } catch (error) {
+            console.error('Bitrix Response:', error.response?.body); // Добавьте эту строку
             logError("DealsService updateDeal", error);
             return false;
         }

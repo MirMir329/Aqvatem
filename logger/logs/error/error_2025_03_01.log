@@ -1,0 +1,1065 @@
+01.03.2025, 00:13:11 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:15:04 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:15:41 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:15:58 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:17:07 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:17:48 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:18:11 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:18:25 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:30:52 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:35:30 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:36:08 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:38:38 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:39:09 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:48:57 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 00:48:59 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 01:08:39 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 01:09:11 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 01:09:38 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 01:19:42 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:20:49 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:32:51 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:33:40 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:34:07 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:34:16 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:34:18 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:35:16 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:35:46 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:35:50 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:35:59 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:36:01 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:37:01 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:37:13 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:38:16 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:38:23 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:38:35 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:38:37 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:43:12 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:43:55 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 02:44:24 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 02:44:32 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 14:55:59 - Source: /montajniki/delete_deal_handler
+Error: No deal id provided
+
+01.03.2025, 14:59:36 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 14:59:36 - Source: DealsService getDealById
+Error: HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 14:59:36 - Source: /montajniki/add_deal_handler/
+Error: TypeError: Cannot read properties of undefined (reading 'CATEGORY_ID')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:929:24
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:928:8
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:00:31 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 15:00:31 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 15:00:31 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 15:00:31 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 15:00:31 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 15:00:37 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 15:00:37 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 15:00:37 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 15:00:37 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 15:00:37 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 15:01:55 - Source: /montajniki/delete_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:13:15 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:13:16 - Source: DealsService getDealById
+Error: HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:13:16 - Source: /montajniki/add_deal_handler/
+Error: TypeError: Cannot read properties of undefined (reading 'CATEGORY_ID')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:929:24
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:928:8
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:14:11 - Source: /montajniki/delete_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:15:26 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:15:26 - Source: DealsService getDealById
+Error: HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:15:26 - Source: /montajniki/add_deal_handler/
+Error: TypeError: Cannot read properties of undefined (reading 'CATEGORY_ID')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:929:24
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:928:8
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:19:05 - Source: DealsService getDealById
+Error: HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:19:05 - Source: /montajniki/add_deal_handler/
+Error: TypeError: Cannot read properties of undefined (reading 'CATEGORY_ID')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:929:24
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:928:8
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 15:19:18 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:30:39 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:37:29 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:37:31 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:37:40 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:37:41 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:40:53 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:41:05 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 15:46:06 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 16:17:17 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 16:19:08 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:19:08 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:19:08 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:19:08 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:19:08 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:20:17 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:20:17 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:20:17 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:20:17 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:20:17 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:21:12 - Source: /montajniki/delete_deal_handler
+Error: No deal id provided
+
+01.03.2025, 16:22:35 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 16:22:35 - Source: DealsService getDealById
+Error: HTTPError: Response code 400 (Bad Request)
+    at Request.<anonymous> (C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 16:22:35 - Source: /montajniki/add_deal_handler/
+Error: TypeError: Cannot read properties of undefined (reading 'CATEGORY_ID')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:929:24
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:928:8
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 16:23:10 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:23:10 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:23:10 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:23:10 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:23:10 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:31:08 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1405:85
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1395:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 16:35:59 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:35:59 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:35:59 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:35:59 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:35:59 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:37:44 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1405:85
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1395:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 16:39:13 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:39:13 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:39:14 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:39:14 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:39:14 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:39:38 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:39:38 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:39:38 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:39:38 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:39:38 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:39:50 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:40:26 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:40:26 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:40:26 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:40:26 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:40:26 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:41:05 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:41:05 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:41:05 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:41:05 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:41:05 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:47:44 - Source: /montajniki/update_deal_handler
+Error: TypeError: Cannot read properties of undefined (reading 'fact_amount')
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1405:86
+    at Array.map (<anonymous>)
+    at C:\Users\emirh\Desktop\МОНТАЖНИКИ\aquatem_module\index.js:1395:76
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+01.03.2025, 16:53:34 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:53:34 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:53:34 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:53:34 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:53:34 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:53:46 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:53:46 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:53:46 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:53:46 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:53:46 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:55:33 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:55:33 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:55:33 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:55:33 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:55:33 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:56:02 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:56:02 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:56:02 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:56:02 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:56:02 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:56:10 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:56:10 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:56:10 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:56:10 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:56:10 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:56:11 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:56:11 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:56:11 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:56:11 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:56:11 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:56:15 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:56:53 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:56:53 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:56:53 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:56:53 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:56:53 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 16:57:27 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 16:57:27 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 16:57:27 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 16:57:27 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 16:57:27 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:01:38 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:01:38 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:01:38 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:01:38 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:01:38 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:14:14 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:14:14 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:14:14 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:14:14 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:14:14 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:14:48 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:14:48 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:14:48 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:14:48 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:14:48 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:17:52 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:17:59 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:17:59 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:17:59 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:17:59 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:17:59 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:19:17 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:19:17 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:19:17 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:19:17 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:19:17 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:19:41 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:19:41 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:19:41 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:19:41 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:19:41 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:19:48 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:19:48 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:19:48 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:19:48 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:19:48 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:19:51 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:21:13 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:22:17 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:22:36 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:23:21 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:23:22 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:23:23 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:23:23 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:24:44 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:24:44 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:25:15 - Source: /montajniki/delete_deal_handler
+Error: No deal id provided
+
+01.03.2025, 17:25:43 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:13 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:21 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:28 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:57:28 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:57:28 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:57:28 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:28 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:57:43 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:57:43 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:57:43 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:57:43 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:57:43 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:47 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 17:57:47 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 17:57:47 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 17:57:47 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 17:57:47 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 17:57:50 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 18:05:04 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 18:11:34 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 18:12:27 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 18:12:28 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 18:12:30 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 18:12:31 - Source: /montajniki/update_deal_handler
+Error: No deal id provided
+
+01.03.2025, 18:14:30 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:03:08 - Source: DB service updateDealById
+Error: Error: SQLITE_BUSY: database is locked
+
+01.03.2025, 19:04:47 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:04:47 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:04:47 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:04:47 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:04:47 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:04:56 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:04:56 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:04:56 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:04:56 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:04:56 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:13:19 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:13:19 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:13:19 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:13:19 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:13:19 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:27:56 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:27:56 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:27:56 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:27:56 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:27:56 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:28:13 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:28:13 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:28:13 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:28:13 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:28:13 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:28:15 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:28:15 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:28:15 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:28:15 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:28:15 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:28:17 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:34:39 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:34:39 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:34:39 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:34:39 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:34:39 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:34:41 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:34:41 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:34:41 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:34:41 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 19:34:41 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:58:03 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 19:58:03 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 19:58:03 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 19:58:03 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 19:58:03 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:03:23 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:03:23 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:03:23 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:03:23 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:03:23 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:09:22 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:09:22 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:09:22 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:09:22 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:09:22 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:09:37 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:09:37 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:09:37 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:09:37 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:09:37 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:09:41 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:09:53 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:09:53 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:09:53 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:09:53 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:09:53 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:13:50 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:13:50 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:13:50 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:13:50 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:13:50 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:15:05 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:15:05 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:15:05 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:15:05 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:15:05 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:15:25 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:15:25 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:15:25 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:15:25 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:15:25 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:16:00 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:17:39 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:17:39 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:17:39 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+
+01.03.2025, 20:17:39 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:17:39 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:17:54 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:21:10 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:21:17 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:22:49 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:25:28 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:25:57 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:26:31 - Source: getDealsWithProducts
+Error: Product with ID 5015 not found. Deal - 2043
+
+01.03.2025, 20:26:31 - Source: getDealsWithProducts
+Error: Product with ID 5019 not found. Deal - 3639
+
+01.03.2025, 20:26:31 - Source: getDealsWithProducts
+Error: Product with ID 5119 not found. Deal - 2773
+
+01.03.2025, 20:26:31 - Source: getDealsWithProducts
+Error: Product with ID 5203 not found. Deal - 3507
+
+01.03.2025, 20:26:31 - Source: getDealsWithProducts
+Error: Product with ID 5187 not found. Deal - 3391
+

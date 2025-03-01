@@ -2599,3 +2599,63 @@ Message: Deal with id 3841 updated successfully.
 27.02.2025, 06:13:47 - Source: /montajniki/update_deal_handler/
 Message: Product rows for deal 3841 successfully updated in db
 
+27.02.2025, 23:48:28 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Deal 3507 service price updated successfully in db
+
+27.02.2025, 23:48:28 - Source: DB Service updateDealById
+Message: Deal with id 3507 updated successfully.
+
+27.02.2025, 23:48:28 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 3507 product_id = 1799
+
+27.02.2025, 23:48:28 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 3507 product_id = 435
+
+27.02.2025, 23:51:21 - Source: /montajniki/update_deal_handler/
+Message: Deal 3935 successfully updated in db
+
+27.02.2025, 23:51:21 - Source: /montajniki/add_deal_handler
+Message: Deal 3935 successfully added to db
+
+27.02.2025, 23:51:21 - Source: DB Service updateDealById
+Message: Deal with id 3935 updated successfully.
+
+27.02.2025, 23:51:22 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 3935 successfully updated in db
+
+27.02.2025, 23:51:22 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 3935 successfully added to db
+
+27.02.2025, 23:51:39 - Source: /montajniki/update_deal/
+Message: Deal 3935 successfully updated in db
+
+27.02.2025, 23:51:39 - Source: DB Service updateDealById
+Message: Deal with id 3935 updated successfully.
+
+27.02.2025, 23:51:40 - Source: /montajniki/update_deal/
+Message: Deal 3935 successfully updated in bx
+
+27.02.2025, 23:51:40 - Source: /montajniki/update_deal/
+Message: Deal 3935 product rows successfully updated in bx
+
+27.02.2025, 23:51:40 - Source: /montajniki/update_deal/
+Message: Deal 3935 products successfully updated in db
+
+27.02.2025, 23:51:41 - Source: /montajniki/update_deal_handler/
+Message: Deal 3935 successfully updated in db
+
+27.02.2025, 23:51:41 - Source: DB Service updateDealById
+Message: Deal with id 3935 updated successfully.
+
+27.02.2025, 23:51:41 - Source: /montajniki/update_deal_handler/
+Message: Deal 3935 successfully updated in db
+
+27.02.2025, 23:51:41 - Source: DB Service updateDealById
+Message: Deal with id 3935 updated successfully.
+
+27.02.2025, 23:51:42 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 3935 successfully updated in db
+
+27.02.2025, 23:51:42 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 3935 successfully updated in db
+
