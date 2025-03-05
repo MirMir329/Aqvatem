@@ -1,0 +1,762 @@
+05.03.2025, 19:03:13 - Source: /montajniki/add_deal_handler
+Message: Deal 4183 successfully added to db
+
+05.03.2025, 19:03:13 - Source: /montajniki/update_deal_handler/
+Message: Deal 4183 successfully updated in db
+
+05.03.2025, 19:03:14 - Source: DB Service updateDealById
+Message: Deal with id 4183 updated successfully.
+
+05.03.2025, 19:03:14 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4183 successfully added to db
+
+05.03.2025, 19:03:14 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4183 successfully updated in db
+
+05.03.2025, 19:04:39 - Source: /montajniki/delete_deal_handler
+Message: Deal 4183 successfully deleted
+
+05.03.2025, 19:04:39 - Source: DB Service deleteDealById
+Message: Deal with id 4183 deleted.
+
+05.03.2025, 19:04:39 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4183 deleted.
+
+05.03.2025, 19:05:30 - Source: /montajniki/update_deal_handler/
+Message: Deal 4185 successfully updated in db
+
+05.03.2025, 19:05:30 - Source: DB Service updateDealById
+Message: Deal with id 4185 updated successfully.
+
+05.03.2025, 19:05:30 - Source: /montajniki/add_deal_handler
+Message: Deal 4185 successfully added to db
+
+05.03.2025, 19:05:31 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4185 successfully updated in db
+
+05.03.2025, 19:05:31 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4185 successfully added to db
+
+05.03.2025, 19:20:31 - Source: /montajniki/update_deal_handler/
+Message: Deal 4185 successfully updated in db
+
+05.03.2025, 19:20:31 - Source: DB Service updateDealById
+Message: Deal with id 4185 updated successfully.
+
+05.03.2025, 19:20:31 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4185 successfully updated in db
+
+05.03.2025, 19:23:32 - Source: /montajniki/delete_deal_handler
+Message: Deal 4185 successfully deleted
+
+05.03.2025, 19:23:32 - Source: DB Service deleteDealById
+Message: Deal with id 4185 deleted.
+
+05.03.2025, 19:23:32 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4185 deleted.
+
+05.03.2025, 19:25:23 - Source: /montajniki/update_deal_handler/
+Message: Deal 4187 successfully updated in db
+
+05.03.2025, 19:25:23 - Source: DB Service updateDealById
+Message: Deal with id 4187 updated successfully.
+
+05.03.2025, 19:25:23 - Source: /montajniki/add_deal_handler
+Message: Deal 4187 successfully added to db
+
+05.03.2025, 19:25:24 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4187 successfully updated in db
+
+05.03.2025, 19:25:24 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4187 successfully added to db
+
+05.03.2025, 19:26:34 - Source: /montajniki/delete_deal
+Message: Deal 4187 successfully deleted
+
+05.03.2025, 19:26:34 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4187 deleted.
+
+05.03.2025, 19:26:35 - Source: DB Service deleteDealById
+Message: Deal with id 4187 deleted.
+
+05.03.2025, 19:26:45 - Source: /montajniki/delete_deal
+Message: Deal 4137 successfully deleted
+
+05.03.2025, 19:26:45 - Source: DB Service deleteDealById
+Message: Deal with id 4137 deleted.
+
+05.03.2025, 19:26:46 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4137 deleted.
+
+05.03.2025, 19:26:55 - Source: /montajniki/delete_deal_handler
+Message: Deal 4187 successfully deleted
+
+05.03.2025, 19:26:55 - Source: DB Service deleteDealById
+Message: Deal with id 4187 deleted.
+
+05.03.2025, 19:26:55 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4187 deleted.
+
+05.03.2025, 19:28:14 - Source: /montajniki/update_deal_handler/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:28:15 - Source: /montajniki/add_deal_handler
+Message: Deal 4189 successfully added to db
+
+05.03.2025, 19:28:15 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:28:15 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4189 successfully updated in db
+
+05.03.2025, 19:28:15 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4189 successfully added to db
+
+05.03.2025, 19:28:49 - Source: /montajniki/update_deal/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:28:49 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:28:49 - Source: /montajniki/update_deal/
+Message: Deal 4189 successfully updated in bx
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal/
+Message: Deal 4189 product rows successfully updated in bx
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal/
+Message: Deal 4189 products successfully updated in db
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal_handler/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:28:50 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal_handler/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:28:50 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4189 successfully updated in db
+
+05.03.2025, 19:28:50 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4189 successfully updated in db
+
+05.03.2025, 19:29:23 - Source: /montajniki/register/
+Message: User Хаккназар Фамилия logged in
+
+05.03.2025, 19:44:40 - Source: /montajniki/update_deal_handler/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:44:40 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:44:41 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4189 successfully updated in db
+
+05.03.2025, 19:59:32 - Source: /montajniki/update_deal_handler/
+Message: Deal 4189 successfully updated in db
+
+05.03.2025, 19:59:32 - Source: DB Service updateDealById
+Message: Deal with id 4189 updated successfully.
+
+05.03.2025, 19:59:32 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4189 successfully updated in db
+
+05.03.2025, 20:11:57 - Source: DB Service deleteUserById
+Message: User with id 41 deleted.
+
+05.03.2025, 20:12:37 - Source: /montajniki/get_user_from_bx/
+Message: User successfully found from bx
+
+05.03.2025, 20:13:59 - Source: /montajniki/update_deal_handler/
+Message: Deal 4191 successfully updated in db
+
+05.03.2025, 20:13:59 - Source: /montajniki/add_deal_handler
+Message: Deal 4191 successfully added to db
+
+05.03.2025, 20:13:59 - Source: DB Service updateDealById
+Message: Deal with id 4191 updated successfully.
+
+05.03.2025, 20:13:59 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4191 successfully added to db
+
+05.03.2025, 20:13:59 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4191 successfully updated in db
+
+05.03.2025, 20:14:41 - Source: /montajniki/delete_deal_handler
+Message: Deal 4191 successfully deleted
+
+05.03.2025, 20:14:41 - Source: DB Service deleteDealById
+Message: Deal with id 4191 deleted.
+
+05.03.2025, 20:14:41 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4191 deleted.
+
+05.03.2025, 20:15:03 - Source: /montajniki/delete_deal_handler
+Message: Deal 4189 successfully deleted
+
+05.03.2025, 20:15:03 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4189 deleted.
+
+05.03.2025, 20:15:03 - Source: DB Service deleteDealById
+Message: Deal with id 4189 deleted.
+
+05.03.2025, 20:37:47 - Source: /montajniki/register/
+Message: User Алишер Сайлауов logged in
+
+05.03.2025, 20:39:21 - Source: /montajniki/update_deal_handler/
+Message: Deal 4193 successfully updated in db
+
+05.03.2025, 20:39:21 - Source: DB Service updateDealById
+Message: Deal with id 4193 updated successfully.
+
+05.03.2025, 20:39:22 - Source: /montajniki/add_deal_handler
+Message: Deal 4193 successfully added to db
+
+05.03.2025, 20:39:22 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4193 successfully updated in db
+
+05.03.2025, 20:39:22 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4193 successfully added to db
+
+05.03.2025, 20:43:02 - Source: /montajniki/delete_deal_handler
+Message: Deal 4193 successfully deleted
+
+05.03.2025, 20:43:03 - Source: DB Service deleteDealById
+Message: Deal with id 4193 deleted.
+
+05.03.2025, 20:43:03 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4193 deleted.
+
+05.03.2025, 20:43:54 - Source: /montajniki/add_deal_handler
+Message: Deal 4195 successfully added to db
+
+05.03.2025, 20:43:54 - Source: /montajniki/update_deal_handler/
+Message: Deal 4195 successfully updated in db
+
+05.03.2025, 20:43:55 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4195 successfully added to db
+
+05.03.2025, 20:43:57 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4195 successfully updated in db
+
+05.03.2025, 20:47:52 - Source: /montajniki/delete_deal_handler
+Message: Deal 4195 successfully deleted
+
+05.03.2025, 20:47:53 - Source: DB Service deleteDealById
+Message: Deal with id 4195 deleted.
+
+05.03.2025, 20:47:53 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4195 deleted.
+
+05.03.2025, 20:48:59 - Source: /montajniki/add_deal_handler
+Message: Deal 4197 successfully added to db
+
+05.03.2025, 20:48:59 - Source: /montajniki/update_deal_handler/
+Message: Deal 4197 successfully updated in db
+
+05.03.2025, 20:49:01 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4197 successfully added to db
+
+05.03.2025, 20:49:01 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4197 successfully updated in db
+
+05.03.2025, 20:50:19 - Source: /montajniki/add_deal_handler
+Message: Deal 4199 successfully added to db
+
+05.03.2025, 20:50:19 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:50:20 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:50:20 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:50:20 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4199 successfully added to db
+
+05.03.2025, 20:50:45 - Source: /montajniki/update_deal/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:50:45 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:50:46 - Source: /montajniki/update_deal/
+Message: Deal 4199 successfully updated in bx
+
+05.03.2025, 20:50:46 - Source: /montajniki/update_deal/
+Message: Deal 4199 products successfully updated in db
+
+05.03.2025, 20:50:46 - Source: /montajniki/update_deal/
+Message: Deal 4199 product rows successfully updated in bx
+
+05.03.2025, 20:50:46 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:50:46 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:50:46 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:50:46 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:50:47 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:50:48 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:51:07 - Source: /montajniki/add_comment/
+Message: Deal 4199 successfully updated (added comment) in bx
+
+05.03.2025, 20:51:07 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:51:07 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:08 - Source: /montajniki/add_comment/
+Message: Deal 4199 successfully updated (added picture to task comment) in bx
+
+05.03.2025, 20:51:08 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:51:08 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:09 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:51:10 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:51:19 - Source: /montajniki/delete_deal_handler
+Message: Deal 4197 successfully deleted
+
+05.03.2025, 20:51:19 - Source: DB Service deleteDealById
+Message: Deal with id 4197 deleted.
+
+05.03.2025, 20:51:19 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4197 deleted.
+
+05.03.2025, 20:51:47 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Deal 4199 service price updated successfully in db
+
+05.03.2025, 20:51:47 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:47 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4199 product_id = 5251
+
+05.03.2025, 20:51:47 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4199 product_id = 5175
+
+05.03.2025, 20:51:47 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4199 product_id = 5179
+
+05.03.2025, 20:51:48 - Source: /montajniki/update_deal/
+Message: Deal 4199 service price updated successfully in bx
+
+05.03.2025, 20:51:48 - Source: /montajniki/update_deal/
+Message: Deal 4199 product rows successfully updated in bx
+
+05.03.2025, 20:51:48 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Fact amounts successfully updated for deal 4199
+
+05.03.2025, 20:51:48 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:51:48 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:51:48 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:49 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:50 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:51:50 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:51:53 - Source: /montajniki/complete_task/
+Message: Deal 4199 successfully updated (added picture to task comment) in bx
+
+05.03.2025, 20:51:54 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:51:54 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:51:55 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:52:01 - Source: /montajniki/update_deal_handler/
+Message: Deal 4199 successfully updated in db
+
+05.03.2025, 20:52:01 - Source: DB Service updateDealById
+Message: Deal with id 4199 updated successfully.
+
+05.03.2025, 20:52:03 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4199 successfully updated in db
+
+05.03.2025, 20:52:16 - Source: /montajniki/delete_deal_handler
+Message: Deal 4199 successfully deleted
+
+05.03.2025, 20:52:17 - Source: DB Service deleteDealById
+Message: Deal with id 4199 deleted.
+
+05.03.2025, 20:52:18 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4199 deleted.
+
+05.03.2025, 20:54:24 - Source: /montajniki/add_deal_handler
+Message: Deal 4201 successfully added to db
+
+05.03.2025, 20:54:24 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:24 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:25 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4201 successfully added to db
+
+05.03.2025, 20:54:25 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:54:38 - Source: /montajniki/update_deal/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:38 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:38 - Source: /montajniki/update_deal/
+Message: Deal 4201 successfully updated in bx
+
+05.03.2025, 20:54:39 - Source: /montajniki/update_deal/
+Message: Deal 4201 product rows successfully updated in bx
+
+05.03.2025, 20:54:39 - Source: /montajniki/update_deal/
+Message: Deal 4201 products successfully updated in db
+
+05.03.2025, 20:54:39 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:39 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:39 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:39 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:40 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:54:40 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:54:53 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Deal 4201 service price updated successfully in db
+
+05.03.2025, 20:54:53 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:53 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4201 product_id = 387
+
+05.03.2025, 20:54:53 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4201 product_id = 5131
+
+05.03.2025, 20:54:53 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4201 product_id = 5183
+
+05.03.2025, 20:54:53 - Source: /montajniki/update_deal/
+Message: Deal 4201 service price updated successfully in bx
+
+05.03.2025, 20:54:53 - Source: /montajniki/update_deal/
+Message: Deal 4201 product rows successfully updated in bx
+
+05.03.2025, 20:54:53 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Fact amounts successfully updated for deal 4201
+
+05.03.2025, 20:54:54 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:54 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:54 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:54 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:55 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:54:55 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:54:57 - Source: /montajniki/complete_task/
+Message: Deal 4201 successfully updated (added picture to task comment) in bx
+
+05.03.2025, 20:54:58 - Source: /montajniki/update_deal_handler/
+Message: Deal 4201 successfully updated in db
+
+05.03.2025, 20:54:58 - Source: DB Service updateDealById
+Message: Deal with id 4201 updated successfully.
+
+05.03.2025, 20:54:59 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4201 successfully updated in db
+
+05.03.2025, 20:55:03 - Source: /montajniki/delete_deal_handler
+Message: Deal 4201 successfully deleted
+
+05.03.2025, 20:55:03 - Source: DB Service deleteDealById
+Message: Deal with id 4201 deleted.
+
+05.03.2025, 20:55:03 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4201 deleted.
+
+05.03.2025, 20:55:58 - Source: /montajniki/update_deal_handler/
+Message: Deal 4203 successfully updated in db
+
+05.03.2025, 20:55:58 - Source: DB Service updateDealById
+Message: Deal with id 4203 updated successfully.
+
+05.03.2025, 20:55:58 - Source: /montajniki/add_deal_handler
+Message: Deal 4203 successfully added to db
+
+05.03.2025, 20:55:58 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4203 successfully updated in db
+
+05.03.2025, 20:55:59 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4203 successfully added to db
+
+05.03.2025, 20:56:57 - Source: /montajniki/get_user_from_bx/
+Message: User successfully found from bx
+
+05.03.2025, 21:11:23 - Source: /montajniki/update_deal_handler/
+Message: Deal 4203 successfully updated in db
+
+05.03.2025, 21:11:23 - Source: DB Service updateDealById
+Message: Deal with id 4203 updated successfully.
+
+05.03.2025, 21:11:23 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4203 successfully updated in db
+
+05.03.2025, 21:25:57 - Source: /montajniki/update_deal_handler/
+Message: Deal 4203 successfully updated in db
+
+05.03.2025, 21:25:57 - Source: DB Service updateDealById
+Message: Deal with id 4203 updated successfully.
+
+05.03.2025, 21:25:57 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4203 successfully updated in db
+
+05.03.2025, 21:56:26 - Source: /montajniki/delete_deal_handler
+Message: Deal 4203 successfully deleted
+
+05.03.2025, 21:56:26 - Source: DB Service deleteDealById
+Message: Deal with id 4203 deleted.
+
+05.03.2025, 21:56:26 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4203 deleted.
+
+05.03.2025, 21:57:43 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 21:57:43 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 21:57:43 - Source: /montajniki/add_deal_handler
+Message: Deal 4205 successfully added to db
+
+05.03.2025, 21:57:43 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 21:57:43 - Source: /montajniki/add_deal_handler/
+Message: Product rows for deal 4205 successfully added to db
+
+05.03.2025, 21:58:19 - Source: /montajniki/update_deal/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 21:58:19 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 21:58:20 - Source: /montajniki/update_deal/
+Message: Deal 4205 successfully updated in bx
+
+05.03.2025, 21:58:20 - Source: /montajniki/update_deal/
+Message: Deal 4205 product rows successfully updated in bx
+
+05.03.2025, 21:58:20 - Source: /montajniki/update_deal/
+Message: Deal 4205 products successfully updated in db
+
+05.03.2025, 21:58:20 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 21:58:20 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 21:58:20 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 21:58:20 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 21:58:22 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 21:58:22 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 21:58:39 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 21:58:39 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 21:58:40 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:18 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:18 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:19 - Source: /montajniki/add_comment/
+Message: Deal 4205 successfully updated (added comment) in bx
+
+05.03.2025, 22:00:19 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:19 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:19 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:20 - Source: /montajniki/add_comment/
+Message: Deal 4205 successfully updated (added picture to task comment) in bx
+
+05.03.2025, 22:00:20 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:20 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:20 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:22 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:49 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Deal 4205 service price updated successfully in db
+
+05.03.2025, 22:00:49 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:49 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4205 product_id = 5183
+
+05.03.2025, 22:00:49 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4205 product_id = 5131
+
+05.03.2025, 22:00:49 - Source: DB service updateDealProductQuantities
+Message: Updated where deal_id = 4205 product_id = 263
+
+05.03.2025, 22:00:50 - Source: /montajniki/update_deal/
+Message: Deal 4205 service price updated successfully in bx
+
+05.03.2025, 22:00:50 - Source: /montajniki/update_deal/
+Message: Deal 4205 product rows successfully updated in bx
+
+05.03.2025, 22:00:50 - Source: /montajniki/set_fact_amount_of_products_in_deal/
+Message: Fact amounts successfully updated for deal 4205
+
+05.03.2025, 22:00:50 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:50 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:50 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:50 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:52 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:52 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:00:55 - Source: /montajniki/complete_task/
+Message: Deal 4205 successfully updated (added picture to task comment) in bx
+
+05.03.2025, 22:00:56 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:00:56 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:00:57 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:01:05 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:01:05 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:01:06 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:02:08 - Source: /montajniki/update_deal_handler/
+Message: Deal 4205 successfully updated in db
+
+05.03.2025, 22:02:08 - Source: DB Service updateDealById
+Message: Deal with id 4205 updated successfully.
+
+05.03.2025, 22:02:09 - Source: /montajniki/update_deal_handler/
+Message: Product rows for deal 4205 successfully updated in db
+
+05.03.2025, 22:02:51 - Source: /montajniki/delete_deal_handler
+Message: Deal 4205 successfully deleted
+
+05.03.2025, 22:02:51 - Source: DB Service deleteDealsProductsRowByDealId
+Message: deals_products with id 4205 deleted.
+
+05.03.2025, 22:02:51 - Source: DB Service deleteDealById
+Message: Deal with id 4205 deleted.
+
+05.03.2025, 22:08:02 - Source: DB Service deleteUserById
+Message: User with id 2945 deleted.
+
+05.03.2025, 22:08:06 - Source: DB Service deleteUserById
+Message: User with id 39 deleted.
+
+05.03.2025, 22:09:55 - Source: /montajniki/get_user_from_bx/
+Message: User successfully found from bx
+
+05.03.2025, 22:10:24 - Source: /montajniki/get_user_from_bx/
+Message: User successfully found from bx
+
+05.03.2025, 22:10:49 - Source: /montajniki/get_user_from_bx/
+Message: User successfully found from bx
+

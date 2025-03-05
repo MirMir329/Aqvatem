@@ -625,7 +625,8 @@ app.post(
         });
         return;
       }
-
+      console.log(await db.getInstallationDepartmentMembers());
+      
       const installationDepartmentMemebers = (
         await db.getInstallationDepartmentMembers()
       ).filter(
@@ -803,6 +804,38 @@ app.post(BASE_URL + "login/", async (req, res) => {
   }
 });
 
+app.post(BASE_URL + "get_user_from_bx/", async (req, res) => {
+  try {
+    const filter = req.body.filter;
+    // console.log("filter", filter);
+    
+    const bxLink = await decryptText(process.env.BX_LINK);
+    const usersService = new UsersService(bxLink);
+    const user = await usersService.getUserByFilter(filter)
+
+    if(user) {
+      logAccess(
+        BASE_URL + "get_user_from_bx/",
+        `User successfully found from bx`
+      );
+      res.status(200).json({
+        status: true,
+        user: user.result,
+        status_msg: "success",
+        message: "User successfully found from bx",
+      });
+    } else {
+      logError(BASE_URL + "get_user_from_bx/", error);
+    }
+    
+  } catch (error) {
+    logError(BASE_URL + "get_user_from_bx/", error);
+    res
+      .status(500)
+      .json({ status: false, status_msg: "error", message: "server error" });
+  }
+});
+
 app.post(BASE_URL + "register/", async (req, res) => {
   try {
     const name = req.body.name;
@@ -946,7 +979,7 @@ app.post(BASE_URL + "add_deal_handler/", async (req, res) => {
       })
       .filter((deal) => deal !== undefined);
 
-    let insertResult = db.insertDealsInDb(newDeal);
+    let insertResult = await db.insertDealsInDb(newDeal);
     if (insertResult) {
       logAccess(
         BASE_URL + "add_deal_handler",
@@ -1017,8 +1050,8 @@ app.post(BASE_URL + "add_deal_handler/", async (req, res) => {
 
     // console.log("dealProducts - ", dealProducts);
 
-    insertProductsResults = db.insertProductsInDb(productsForProductsTable)
-    insertResult = db.insertDealsProductsInDb(dealProducts);
+    insertProductsResults = await db.insertProductsInDb(productsForProductsTable)
+    insertResult = await db.insertDealsProductsInDb(dealProducts);
     if (insertResult) {
       logAccess(
         BASE_URL + "add_deal_handler/",

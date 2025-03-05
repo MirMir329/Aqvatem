@@ -83,12 +83,15 @@ class Db {
 
   insertOneUserInDb(newUser = {}) {
     const db = new sqlite3.Database(this.dbPath);
+    // console.log("newUser",newUser);
+    
     try {
       db.serialize(() => {
         const stmt = db.prepare(`
-                INSERT INTO users ( name, last_name, department_ids, password, city)
-                VALUES ( ?, ?, ?, ?, ?)
+                INSERT INTO users ( id, name, last_name, department_ids, password, city)
+                VALUES ( ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(id) DO UPDATE SET
+                    id = excluded.id,
                     name = excluded.name,
                     last_name = excluded.last_name,
                     department_ids = excluded.department_ids,
@@ -98,6 +101,7 @@ class Db {
             `);
 
         stmt.run(
+          newUser.id,
           newUser.name,
           newUser.last_name,
           newUser.department_ids,
