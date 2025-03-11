@@ -625,7 +625,7 @@ app.post(
         });
         return;
       }
-      console.log(await db.getInstallationDepartmentMembers());
+      // console.log(await db.getInstallationDepartmentMembers());
       
       const installationDepartmentMemebers = (
         await db.getInstallationDepartmentMembers()
@@ -964,7 +964,7 @@ app.post(BASE_URL + "add_deal_handler/", async (req, res) => {
 
     const newDeal = [await dealService.getDealById(dealId)]
       .map((deal) => {
-        console.log("Строка 930, deal -", deal);
+        // console.log("Строка 930, deal -", deal);
         
         if (Number(deal["CATEGORY_ID"]) === 0) {
           return {
@@ -1430,7 +1430,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
     
     // запрос в базу данных чтобы доставать товары из сделки (таблица deals_products) 
     const productRows = (await dealService.getDealProductRowsByDealId(id)).map((pr) => {
-      if (Number(pr["QUANTITY"]) !== 0) {
+      // if (Number(pr["QUANTITY"]) !== 0) {
           // Ищем соответствующий продукт в dealsProductsFromDb по product_id
           const matchedProduct = dealsProductsFromDb.find(
               (dp) => dp.product_id === Number(pr["PRODUCT_ID"])
@@ -1447,7 +1447,7 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
                   : Number(pr["QUANTITY"]),
               price: Number(pr["PRICE"]),
           };
-      }
+      // }
     });
     // const productRows = (await dealService.getDealProductRowsByDealId(id)).map(
     //   (pr, index) => {
@@ -1468,7 +1468,10 @@ app.post(BASE_URL + "update_deal_handler/", async (req, res) => {
     // console.log("Строка 1376, dealService:", dealService);
 
     const products = [];
+    // console.log("Строка 1471, productRows - ", productRows);
     for (let pr of productRows) {
+      // console.log("Строка 1473, pr - ", pr);
+      
       if(pr.product_id) {
         const originalProduct = await productService.getOriginalProductId(
           pr.product_id
